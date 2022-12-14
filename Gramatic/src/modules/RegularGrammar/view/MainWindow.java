@@ -14,14 +14,12 @@ import modules.RegularGrammar.models.Production;
 
 public class MainWindow extends JFrame {
 
-	private static final String ICON_PATH = "/modules/RegularGrammar/img/grammaricon.png";
 	private static final long serialVersionUID = 1L;
 	private MainPanel mainPanel;
 	
 	public MainWindow(ActionListener listener) {
-		setTitle("Gramática");
-		setSize(new Dimension(1000, 750));
-		setIconImage(new ImageIcon(getClass().getResource(ICON_PATH)).getImage());
+		setTitle("Gramatica");
+		setSize(new Dimension(900, 400));
 		setLocationRelativeTo(null);
 		setVisible(true);
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);

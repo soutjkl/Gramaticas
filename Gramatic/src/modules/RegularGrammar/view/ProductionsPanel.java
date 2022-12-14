@@ -16,6 +16,7 @@ public class ProductionsPanel extends JPanel {
 	private JPanel accumulatedPanel;
 
 	public ProductionsPanel(List<Production> list) {
+		setSize(100,200);
 		setLayout(new BorderLayout(0, 0));
 		setBackground(Color.WHITE);
 		

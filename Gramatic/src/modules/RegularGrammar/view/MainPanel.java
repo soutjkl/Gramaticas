@@ -22,19 +22,9 @@ public class MainPanel extends JPanel {
 	public MainPanel(ActionListener listener) {
 		setBackground(Color.WHITE);
 		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-		
-		BannerPanel bannerPanel = new BannerPanel();
-		
-		add(bannerPanel);
-		
-		
-		JLabel spaceLabel = new JLabel();
-		spaceLabel.setBorder(BorderFactory.createEmptyBorder(40, 0, 0, 0));
-		add(spaceLabel);
 
 		dinamicPanel = new DinamicPanel(listener);
 		this.actual = dinamicPanel;
-
 		add(dinamicPanel);
 	}
 

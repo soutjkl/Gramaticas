@@ -66,7 +66,7 @@ public class Controller implements ActionListener {
 		this.mainWindow.change(this.grammar.getTree().getRoot(), this.grammar.getStatus());
 		if (this.grammar.getStatus().equals("No pertenece al lenguaje")) {
 			JOptionPane.showMessageDialog(null,
-					"El lenguaje no pertenece, no se puede graficar el árbol de derivación general");
+					"El lenguaje no pertenece, no se puede graficar el ï¿½rbol de derivaciï¿½n general");
 		}
 		this.grammar.setStatus("");
 	}
@@ -81,7 +81,7 @@ public class Controller implements ActionListener {
 		this.mainWindow.changeToCenterPanel(this.grammar.getTree().getRoot(), this.grammar.getStatus());
 		if (this.grammar.getStatus().equals("No pertenece al lenguaje")) {
 			JOptionPane.showMessageDialog(null,
-					"El lenguaje no pertenece, no se puede graficar el arbol " + "de derivación particular");
+					"El lenguaje no pertenece, no se puede graficar el arbol " + "de derivacion particular");
 		}
 		this.grammar.setStatus("");
 	}
